@@ -47,15 +47,28 @@
   						<h2 class="display-4 text-center">Profile</h2>
   					</div>
   				</div>
+  				<!-- photo -->
   				<div class="col-md-4">
   					<div class="profile-photo">
   						<img src="asset/images/pp.jpg" />
+  						<!-- download CV Button -->
+  						<button type="submit" class="btn btn-primary">Download CV</button>
   					</div>
   				</div>
+  				<!-- about me -->
   				<div class="col-md-6">
   					<div class="profile-desc">
   						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit metus. Aliquam ut porta tellus. In vel imperdiet sem, vitae blandit felis. Nulla non elit metus. Aliquam ut porta tellus. In vel imperdiet sem, vitae blandit felis.</p>
-  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non elit metus. Aliquam ut porta tellus. In vel imperdiet sem, vitae blandit felis. Nulla non elit metus. Aliquam ut porta tellus. In vel imperdiet sem, vitae blandit felis.</p>
+  						<p>Incididunt dolore voluptate nisi dolore sed nostrud velit amet do in eiusmod culpa culpa reprehenderit labore qui officia amet dolore dolor dolore duis labore fugiat ut amet velit ut adipisicing.</p>
+  						<!-- skill list -->
+  						<figure class="skills-list">
+  							<figcaption>Skills</figcaption>
+  							<ul class="list-group list-group-flush">
+  								<li class="list-group-item">HTML</li>
+  								<li class="list-group-item">CSS</li>
+  								<li class="list-group-item">JavaScript</li>
+  							</ul>
+  						</figure>
   					</div>
   				</div>
   				<!-- portofolio section -->
@@ -94,15 +107,50 @@
   				<div class="col-md-6">
   					<div class="contact-form">
   						<form>
-  							<input type="text" name="nama" />
-  							<button type="input">Send Email</button>
+  							<div class="form-group">
+  								<label for="email-address">Email Address</label>
+  								<input type="email" id="email-address" class="email-address-input form-control" placeholder="Enter Email" />
+  								<label for="your-name">Name</label>
+  								<input type="text" id="your-name" class="name-input form-control" placeholder="Your Name" />
+  								<label for="your-massage">Your Massage</label>
+  								<input type="text" id="your-massage" class="massage-input form-control" placeholder="Your Massage" />
+  								<button type="submit" class="btn btn-primary">Send Massage</button>
+  							</div>
   						</form>
   					</div>
   				</div>
   				<!-- contact list -->
   				<div class="col-md-6">
-  					<ul>
-  						<li>Email: panjidwi1437@gmail.com</li>
+  					<ul class="list-group-flush">
+  						<li class="list-group-item">
+  							<ion-icon name="mail" class="email-icon"></ion-icon>panjidwi1437@gmail.com
+  						</li>
+  						<li class="list-group-item">
+  							<ion-icon name="call" class="phone-icon"></ion-icon>0888-8888-8888
+  						</li>
+  					</ul>
+  					<!-- Social Media -->
+  					<ul class="list-group list-group-horizontal">
+  						<li class="list-group-item">
+  							<a href="http://facebook.com/">
+  								<ion-icon name="logo-facebook" class="your-facebook"></ion-icon>
+  							</a>
+  						</li>
+  						<li class="list-group-item">
+  							<a href="https://twitter.com/">
+  								<ion-icon name="logo-twitter" class="your-twitter"></ion-icon>
+  							</a>
+  						</li>
+  						<li class="list-group-item">
+  							<a href="https://www.instagram.com/">
+  								<ion-icon name="logo-instagram" class="your-instagram"></ion-icon>
+  							</a>
+  						</li>
+  						<li class="list-group-item">
+  							<a href="https://www.linkedin.com/">
+  								<ion-icon name="logo-linkedin" class="your-linkedin"></ion-icon>
+  							</a>
+  						</li>
   					</ul>
   				</div>
   				<!-- footer -->
@@ -112,6 +160,13 @@
   			</div>
   		</div>
   	</div>
+
+  	<!-- Script -->
+
+  	<!-- Jquery -->
+  	<script src="asset/js/jquery-3.4.1.min.js"></script>
+  	<!-- Ionicons -->
+  	<script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
   </body>
 </html>
 
