@@ -1,0 +1,50 @@
+/* general body */
+body {
+	background-color: #fcfcfc;
+	font-family: 'Paytone One','Pontano Sans', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+/* header */
+#header {
+	width: 100%;
+	height: 700px;
+	background-color: #ffffff;
+	margin-bottom: 165px;
+}
+
+/* navigation */
+#header #navigation {
+	width: 100%;
+	height: 50px;
+	background-color:rgba(0,0,0,0);
+	position: absolute;
+}
+
+/* navigation items */
+#header #navigation .nav {font-family: 'Pontano Sans', sans-serif; font-size: 17px;}
+#header #navigation .nav .nav-item a {color: #ffffff;}
+#header #navigation .nav .nav-item a:hover {color: #3cbcfc; transition: 300ms}
+
+/* jumbotron */
+#header .jumbotron {
+	width: 100%;
+	height: 100%;
+	background: url(../images/header-bg.jpg), #fefefe;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#header .jumbotron .web-title {
+	padding-top: 175px;
+	font-family: 'Paytone One',sans-serif;
+	color: #ffffff;
+	text-align: center;
+}
+#header .jumbotron .web-subtitle {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+}
