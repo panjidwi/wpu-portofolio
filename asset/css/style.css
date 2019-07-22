@@ -5,8 +5,10 @@ General Style
 ================ */
 
 body {
-	background-color: #fdfffc; 
+	background-color: #fff; 
 	color: #011627;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing : antialiased;
 }
 
 h1,
@@ -16,15 +18,6 @@ h4,
 h5,
 h5, {
 	color: #011627;
-}
-
-a {
-	color: #588b8b;
-}
-
-a:hover {
-	color: #a7a2a9;
-	transition: ease-in-out 300ms;
 }
 
 #page-wrapper {
@@ -67,33 +60,37 @@ Header
 
 #header #website-label {
 	color: #fff;
-	font-size: 25px;
+	font-size: 40px;
 	font-family: 'Overpass', sans-serif;
 	font-weight: bold;
 }
 
 #header #navigation-bar {
 	width: 100%;
-	padding: 30px 0 0 0;
+	padding: 45px 0 0 0;
 	background-color: transparent;
 }
 
 #header #navigation-bar .navbar-nav {
 	font-family: 'Overpass', sans-serif;
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 25px;
 }
 
-#header #navigation-bar .navbar-nav a {color: #fff;}
+#header #navigation-bar .navbar-nav a {
+	color: #fff;
+	margin: 0 15px 0;
+}
+
 #header #navigation-bar .navbar-nav a:hover {
-	color: #588b8b;
+	color: #1B9CFC;
 	transition: ease-in-out 300ms;
 }
 
 #header #hero {
 	background-color: transparent;
 	height: 100%;
-	padding: 175px 0 0 0;
+	padding: 180px 0 0 0;
 }
 
 #header #hero #web-title {
@@ -116,7 +113,7 @@ Header
 }
 
 #header #hero .hero-navigation-butt:hover {
-	color: #588b8b;
+	color: #1B9CFC;
 	transition: ease-in-out 3ms;
 }
 
@@ -128,7 +125,7 @@ Content
 
 #main-body-content .content-container-profile {
 	padding: 30px 0 50px;
-	margin-bottom: 100px;
+	margin-bottom: 130px;
 }
 
 .content-container-profile .container-about-me {margin-bottom: 50px;}
@@ -156,4 +153,124 @@ Content
 	display: block;
 	margin: 15px 0 5px;
 	font-size: 15px;
+}
+
+#main-body-content .content-container-portofolio {
+	padding: 30px 0 50px;
+	margin-bottom: 130px;
+}
+
+.content-container-portofolio .container-portofolio {
+	height: 100%;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+.content-container-portofolio .container-portofolio img {border-radius: 10px;}
+
+#main-body-content .content-container-contact {
+	padding: 30px 0 50px;
+	margin-bottom: 130px;
+}
+
+.content-container-contact .content-contact-form {
+	padding: 0 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+
+.content-container-contact .content-contact-form  h3 {
+	margin-bottom: 30px;
+	font-family: 'Overpass', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #000;
+}
+
+.content-contact-form .contact-form input {margin-bottom: 25px;}
+.content-contact-form .contact-form textarea {
+	height: 150px;
+	margin-bottom: 25px;
+}
+
+.content-contact-form .contact-form button {
+	width: 150px;
+	font-weight: lighter;
+	font-size: 20px;
+	font-family: 'Overpass', sans-serif;
+	border: none;
+}
+.content-contact-form .contact-form button:hover {
+	background-color: #000;
+	transition: ease-in-out 250ms;
+	border: none;
+}
+
+.content-container-contact .content-contact {
+	padding: 0 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+.content-contact .title-box {margin-bottom: 30px;}
+.content-contact .title-box h3 {
+	font-family: 'Overpass', sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #000;
+}
+
+.content-contact .contact-info {margin-bottom: 30px;}
+.contact-info .contact-detail {
+	padding-left: 0;
+	font-weight: bold;
+	list-style: none;
+}
+
+.contact-info .contact-detail ion-icon {
+	padding: 0;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.content-contact .contact-social-media-list {width: 100%;}
+.contact-social-media-list .social-media-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.contact-social-media-list .social-media-list li {
+	display: inline;
+	float: left;
+	margin-right: 15px;
+}
+
+.contact-social-media-list .social-media-list li a {font-size: 30px;}
+.contact-social-media-list .social-media-list li a:hover {
+	color: #000;
+	transition: ease-in-out 250ms;
+}
+
+/* =============
+
+Footer
+
+================ */
+
+#footer {
+	width: 100%;
+	height: 150px;
+	padding: 60px 0 50px;
+	background-color: #eee;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#footer .content-copyright-container {font-size: 15px;}
+#footer .content-credit-container {margin-top: -15px;}
+#footer .content-credit-container a {font-weight: bolder;}
+#footer .content-credit-container a:hover {
+	font-weight: bolder;
+	color: #000;
+	text-decoration: none;
+	transition: ease-in-out 250ms;
 }
