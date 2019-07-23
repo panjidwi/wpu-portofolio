@@ -83,9 +83,19 @@ Header
 }
 
 #header #navigation-bar .navbar-nav a:hover {
-	color: #1B9CFC;
+	color: #180759;
 	transition: ease-in-out 300ms;
 }
+
+/* Sticky Navbar Style Start */
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Sticky Navbar Style End */
 
 #header #hero {
 	background-color: transparent;
@@ -113,7 +123,7 @@ Header
 }
 
 #header #hero .hero-navigation-butt:hover {
-	color: #1B9CFC;
+	color: #180759;
 	transition: ease-in-out 3ms;
 }
 
@@ -194,13 +204,14 @@ Content
 
 .content-contact-form .contact-form button {
 	width: 150px;
+	background-color: #562ad1;
 	font-weight: lighter;
 	font-size: 20px;
 	font-family: 'Overpass', sans-serif;
 	border: none;
 }
 .content-contact-form .contact-form button:hover {
-	background-color: #000;
+	background-color: #180759;
 	transition: ease-in-out 250ms;
 	border: none;
 }
@@ -245,9 +256,12 @@ Content
 	margin-right: 15px;
 }
 
-.contact-social-media-list .social-media-list li a {font-size: 30px;}
+.contact-social-media-list .social-media-list li a {
+	color: #562ad1;
+	font-size: 30px;
+}
 .contact-social-media-list .social-media-list li a:hover {
-	color: #000;
+	color: #180759;
 	transition: ease-in-out 250ms;
 }
 
@@ -258,19 +272,23 @@ Footer
 ================ */
 
 #footer {
+	color: #fff;
 	width: 100%;
 	height: 150px;
 	padding: 60px 0 50px;
-	background-color: #eee;
+	background-color: #fcc719;
 	font-family: 'Montserrat', sans-serif;
 }
 
 #footer .content-copyright-container {font-size: 15px;}
 #footer .content-credit-container {margin-top: -15px;}
-#footer .content-credit-container a {font-weight: bolder;}
+#footer .content-credit-container a {
+	color: #562ad1;
+	font-weight: bolder;
+}
 #footer .content-credit-container a:hover {
 	font-weight: bolder;
-	color: #000;
+	color: #180759;
 	text-decoration: none;
 	transition: ease-in-out 250ms;
 }
